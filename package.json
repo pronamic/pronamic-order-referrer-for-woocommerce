@@ -1,0 +1,24 @@
+{
+	"name": "@pronamic/pronamic-order-referrer-for-woocommerce",
+	"version": "1.0.0",
+	"description": "This plugin keeps track of the referrer per WooCommerce order.",
+	"keywords": [
+		"pronamic",
+		"wordpress",
+		"woocommerce"
+	],
+	"author": "Pronamic",
+	"license": "UNLICENSED",
+	"private": true,
+	"devDependencies": {
+		"@wordpress/env": "^8.9.0",
+		"@wordpress/scripts": "^26.14.0",
+		"prettier": "npm:wp-prettier@^3.0.3",
+		"terser": "^5.22.0"
+	},
+	"prettier": "@wordpress/prettier-config",
+	"scripts": {
+    	"lint-js": "wp-scripts lint-js ./js/src",
+    	"js-minify": "terser js/src/script.js --compress --mangle --output js/dist/script.min.js"
+	}
+}
