@@ -1,52 +1,24 @@
-<p align="center"><img src="assets/github-banner.png" alt=""></p>
-
-# Pronamic Payment Gateways Countries Condition for WooCommerce
-
-[![Latest Stable Version](http://poser.pugx.org/pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce/v)](https://packagist.org/packages/pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce)
-[![Total Downloads](http://poser.pugx.org/pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce/downloads)](https://packagist.org/packages/pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce)
-[![Latest Unstable Version](http://poser.pugx.org/pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce/v/unstable)](https://packagist.org/packages/pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce)
-[![License](http://poser.pugx.org/pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce/license)](https://packagist.org/packages/pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce)
-[![PHP Version Require](http://poser.pugx.org/pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce/require/php)](https://packagist.org/packages/pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce)
+# Pronamic Order Referrer for WooCommerce
 
 - [Introduction](#introduction)
-- [Benefits](#benefits)
-- [Features](#features)
-- [Installation](#installation)
-- [Screenshots](#screenshots)
+- [Referrer Policy](#referrer-policy)
 - [Links](#links)
 
 ## Introduction
 
-This plugin allows you to specify the countries in which each WooCommerce payment gateway is available. This is useful for businesses that want to offer different payment methods to customers in different countries.
+This plugin keeps track of the referrer per WooCommerce order.
 
-## Benefits
+## Referrer Policy
 
-This simple, high-quality plugin adds a setting to all WooCommerce payment gateways to limit payment gateways to specific countries.
-The plugin was built by the Frisian/Dutch web agency Pronamic with WordPress experience since 2005.
-Users of this plugin can count on Pronamic's excellent service and experience.
+> The Referrer-Policy [HTTP header](https://developer.mozilla.org/en-US/docs/Glossary/HTTP_header) controls how much [referrer information](https://developer.mozilla.org/en-US/docs/Web/Security/Referer_header:_privacy_and_security_concerns) (sent with the [Referer](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer) header) should be included with requests. Aside from the HTTP header, you can [set this policy in HTML](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy#integration_with_html).
 
-## Features
+Many web browsers use the 'strict-origin-when-cross-origin' `Referrer-Policy` HTTP header by default:
 
-- Easily specify the countries in which each payment gateway is available
-- Supports all WooCommerce payment gateways
-- Simple to use
-
-## Installation
-
-```
-composer require pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce
-```
-
-```php
-\Pronamic\WooCommercePaymentGatewaysCountriesCondition\Plugin::instance()->setup();
-```
-
-## Screenshots
-
-![Screenshot of the Pronamic Pay WooCommerce iDEAL payment gateway settings page in the WordPress admin dashboard.](assets/screenshot-1.png)
+> Send the origin, path, and querystring when performing a same-origin request. For cross-origin requests send the origin (only) when the protocol security level stays same (HTTPS→HTTPS). Don't send the Referer header to less secure destinations (HTTPS→HTTP).
 
 ## Links
 
 - https://www.pronamic.eu/
+- https://web.dev/articles/referrer-best-practices
 
 [![Pronamic - Work with us](https://github.com/pronamic/brand-resources/blob/main/banners/pronamic-work-with-us-leaderboard-728x90%404x.png)](https://www.pronamic.eu/contact/)
