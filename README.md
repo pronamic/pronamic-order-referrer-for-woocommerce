@@ -12,7 +12,7 @@ This plugin keeps track of the referrer per WooCommerce order.
 
 > The Referrer-Policy [HTTP header](https://developer.mozilla.org/en-US/docs/Glossary/HTTP_header) controls how much [referrer information](https://developer.mozilla.org/en-US/docs/Web/Security/Referer_header:_privacy_and_security_concerns) (sent with the [Referer](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer) header) should be included with requests. Aside from the HTTP header, you can [set this policy in HTML](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy#integration_with_html).
 
-Many web browsers use the 'strict-origin-when-cross-origin' `Referrer-Policy` HTTP header by default:
+Many web browsers use the `strict-origin-when-cross-origin` `Referrer-Policy` HTTP header by default:
 
 > Send the origin, path, and querystring when performing a same-origin request. For cross-origin requests send the origin (only) when the protocol security level stays same (HTTPS→HTTPS). Don't send the Referer header to less secure destinations (HTTPS→HTTP).
 
