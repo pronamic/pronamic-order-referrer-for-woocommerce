@@ -1,14 +1,14 @@
 # Pronamic Order Referrer for WooCommerce
 
 - [Introduction](#introduction)
-- [Referrer Policy](#referrer-policy)
+- [Referrer policy](#referrer-policy)
 - [Links](#links)
 
 ## Introduction
 
 This plugin keeps track of the referrer per WooCommerce order.
 
-## Referrer Policy
+## Referrer policy
 
 > The Referrer-Policy [HTTP header](https://developer.mozilla.org/en-US/docs/Glossary/HTTP_header) controls how much [referrer information](https://developer.mozilla.org/en-US/docs/Web/Security/Referer_header:_privacy_and_security_concerns) (sent with the [Referer](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer) header) should be included with requests. Aside from the HTTP header, you can [set this policy in HTML](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy#integration_with_html).
 
