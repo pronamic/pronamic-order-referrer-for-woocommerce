@@ -2,7 +2,7 @@
 /**
  * Pronamic Order Referrer for WooCommerce
  *
- * @package   PronamicWooCommercePaymentGatewaysCountriesCondition
+ * @package   PronamicWooCommerceOrderReferrer
  * @author    Pronamic
  * @copyright 2023 Pronamic
  */
