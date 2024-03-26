@@ -1,0 +1,56 @@
+# Copyright (C) 2024 Pronamic
+# This file is distributed under the Proprietary.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pronamic Order Referrer for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pronamic-order-referrer-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-26T12:20:54+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: pronamic-order-referrer-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: pronamic-order-referrer-for-woocommerce.php
+msgid "Pronamic Order Referrer for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: pronamic-order-referrer-for-woocommerce.php
+msgid "https://www.pronamic.shop/product/pronamic-order-referrer-for-woocommerce/"
+msgstr ""
+
+#. Description of the plugin
+#: pronamic-order-referrer-for-woocommerce.php
+msgid "This plugin keeps track of the referrer per WooCommerce order."
+msgstr ""
+
+#. Author of the plugin
+#: pronamic-order-referrer-for-woocommerce.php
+msgid "Pronamic"
+msgstr ""
+
+#. Author URI of the plugin
+#: pronamic-order-referrer-for-woocommerce.php
+msgid "https://www.pronamic.eu/"
+msgstr ""
+
+#: src/Plugin.php:141
+msgid "Referrers"
+msgstr ""
+
+#: views/admin-meta-box-woocommerce-order.php:20
+msgid "There is no referrer data available for this order."
+msgstr ""
+
+#: views/admin-meta-box-woocommerce-order.php:29
+msgid "Date"
+msgstr ""
+
+#: views/admin-meta-box-woocommerce-order.php:30
+msgid "Referrer"
+msgstr ""
