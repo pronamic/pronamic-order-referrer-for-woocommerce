@@ -10,7 +10,7 @@
  * Plugin Name: Pronamic Order Referrer for WooCommerce
  * Plugin URI: https://www.pronamic.shop/product/pronamic-order-referrer-for-woocommerce/
  * Description: This plugin keeps track of the referrer per WooCommerce order.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires at least: 6.1
  * Requires PHP: 8.0
  * Author: Pronamic

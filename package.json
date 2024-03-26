@@ -1,6 +1,6 @@
 {
 	"name": "@pronamic/pronamic-order-referrer-for-woocommerce",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "This plugin keeps track of the referrer per WooCommerce order.",
 	"keywords": [
 		"pronamic",
@@ -18,7 +18,7 @@
 	},
 	"prettier": "@wordpress/prettier-config",
 	"scripts": {
-    	"lint-js": "wp-scripts lint-js ./js/src",
-    	"js-minify": "terser js/src/script.js --compress --mangle --output js/dist/script.min.js"
+		"lint-js": "wp-scripts lint-js ./js/src",
+		"js-minify": "terser js/src/script.js --compress --mangle --output js/dist/script.min.js"
 	}
 }
